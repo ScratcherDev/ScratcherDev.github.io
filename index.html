@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>See on browser tab</title>
+    <style>
+    #defaultBlock {
+    display: table;
+    }
+    div {
+    float: left;
+    height: 470px;
+    width: 300px;
+    padding: 10px;
+    }
+    #block1 {
+    background-color: #cccccc;
+    }
+    #block2 {
+    background-color: #cccccc;
+    width: 250px;
+    }
+    #block3 {
+    background-color: #cccccc;
+    width: 250px;
+    }
+    h2 {
+    text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <main id="defaultBlock">
+        <h2>Website</h2>
+        <div id="block1">
+            <h2>Bitcoin</h2>
+            <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-advanced-chart.js"></script>
+
+<tv-advanced-chart symbol="BITSTAMP:BTCUSD" interval="15" allow-symbol-change></tv-advanced-chart>
+        </div>
+        <div id="block2">
+            <h2>Google</h2>
+            <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-advanced-chart.js"></script>
+
+<tv-advanced-chart symbol="NASDAQ:GOOGL" interval="15" allow-symbol-change></tv-advanced-chart>
+        </div>
+        <div id="block3">
+            <h2>Nvidia</h2>
+            <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-advanced-chart.js"></script>
+
+<tv-advanced-chart symbol="NASDAQ:NVDA" interval="15" allow-symbol-change></tv-advanced-chart>
+        </div>
+    </main>
+</body>
+</html>
